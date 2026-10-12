@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Interested in contributing
+    url: https://coralmind.org/get-involved?sourceId=GitHub#connect
+    about: Contribution guidelines are still being written. Tell us how you would like to help.
+  - name: Questions and other help
+    url: https://coralmind.org/get-involved?sourceId=GitHub#connect
+    about: CoralMind is not a clinical service. Questions about the projects go through the contact form.
+  - name: Security or safety-sensitive report
+    url: https://github.com/coralmind/.github/blob/main/SECURITY.md
+    about: Report a vulnerability or safety-sensitive content in private. Never in a public issue.

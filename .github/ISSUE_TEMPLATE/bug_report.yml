@@ -1,0 +1,48 @@
+name: Bug report
+description: Something isn't working as expected
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this.
+
+        Do not include security vulnerabilities or safety-sensitive content here. Use the private process in the [security policy](https://github.com/coralmind/.github/blob/main/SECURITY.md).
+
+        Do not include real patient data, identifiable crisis narratives, or other personal information. CoralMind is not a clinical service. If you need help now, see [support](https://github.com/coralmind/.github/blob/main/SUPPORT.md).
+  - type: checkboxes
+    id: no-personal-data
+    attributes:
+      label: Before you continue
+      options:
+        - label: This report does not include real patient data, identifiable personal stories, or other personal information.
+          required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+    validations:
+      required: false
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, runtime versions, and anything else relevant.
+    validations:
+      required: false

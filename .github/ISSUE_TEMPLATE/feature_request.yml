@@ -1,0 +1,36 @@
+name: Feature request
+description: Propose a new capability or improvement
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the proposal.
+
+        Do not include real patient data, identifiable crisis narratives, or other personal information. Security vulnerabilities and safety-sensitive content belong in the [security policy](https://github.com/coralmind/.github/blob/main/SECURITY.md), not here.
+  - type: checkboxes
+    id: no-personal-data
+    attributes:
+      label: Before you continue
+      options:
+        - label: This request does not include real patient data, identifiable personal stories, or other personal information.
+          required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the need before the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
