@@ -1,5 +1,5 @@
 name: Bug report
-description: Something isn't working as expected
+description: Code or tooling isn't working as expected
 labels: ["bug", "needs-triage"]
 body:
   - type: markdown
@@ -7,15 +7,19 @@ body:
       value: |
         Thanks for reporting this.
 
+        For a problem with content, such as text, data, or citations, use the content report instead.
+
         Do not include security vulnerabilities or safety-sensitive content here. Use the private process in the [security policy](https://github.com/coralmind/.github/blob/main/SECURITY.md).
 
         Do not include real patient data, identifiable crisis narratives, or other personal information. CoralMind is not a clinical service. If you need help now, see [support](https://github.com/coralmind/.github/blob/main/SUPPORT.md).
   - type: checkboxes
-    id: no-personal-data
+    id: before-you-continue
     attributes:
       label: Before you continue
       options:
         - label: This report does not include real patient data, identifiable personal stories, or other personal information.
+          required: true
+        - label: This report is not about a security vulnerability or safety-sensitive content.
           required: true
   - type: textarea
     id: what-happened

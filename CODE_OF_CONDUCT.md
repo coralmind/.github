@@ -6,7 +6,7 @@ We pledge to make our community welcoming, safe, and equitable for all.
 
 We are committed to fostering an environment that respects and promotes the dignity, rights, and contributions of all individuals, regardless of characteristics including race, ethnicity, caste, color, age, physical characteristics, neurodiversity, disability, sex or gender, gender identity or expression, sexual orientation, language, philosophy or religion, national or social origin, socio-economic position, level of education, or other status. The same privileges of participation are extended to everyone who participates in good faith and in accordance with this Covenant.
 
-Because CoralMind's work concerns AI and mental health, discussions may touch on suicide, self-harm, and psychiatric crisis. We approach those topics with clinical seriousness and respect for people with lived experience.
+Because CoralMind's work concerns AI's impact on people's mental wellbeing and cognitive functioning, discussions may touch on suicide, self-harm, and psychiatric crisis. We approach those topics with clinical seriousness and respect for people with lived experience.
 
 ## Encouraged Behaviors
 
@@ -20,7 +20,7 @@ With these considerations in mind, we agree to behave mindfully toward each othe
 4. **Taking responsibility** for our actions and contributions.
 5. Gracefully giving and accepting **constructive feedback**.
 6. Committing to **repairing harm** when it occurs.
-7. Behaving in other ways that promote and sustain the **well-being of our community**.
+7. Behaving in other ways that promote and sustain the **wellbeing of our community**.
 
 ## Restricted Behaviors
 
@@ -32,7 +32,7 @@ We agree to restrict the following behaviors in our community. Instances, threat
 4. **Sexualization.** Behaving in a way that would generally be considered inappropriately intimate in the context or purpose of the community.
 5. **Violating confidentiality.** Sharing or acting on someone's personal or private information without their permission.
 6. **Endangerment.** Causing, encouraging, or threatening violence or other harm toward any person or group.
-7. Behaving in other ways that **threaten the well-being** of our community.
+7. Behaving in other ways that **threaten the wellbeing** of our community.
 
 ### Other Restrictions
 
@@ -47,7 +47,7 @@ We agree to restrict the following behaviors in our community. Instances, threat
 
 Tensions can occur between community members even when they are trying their best to collaborate. Not every conflict represents a code of conduct violation, and this Code of Conduct reinforces encouraged behaviors and norms that can help avoid conflicts and minimize harm.
 
-When an incident does occur, it is important to report it promptly. To report a possible violation, email [hello@coralmind.org](mailto:hello@coralmind.org) with "Code of Conduct" in the subject line.
+When an incident does occur, it is important to report it promptly. To report a possible violation, email [compliance@coralmind.org](mailto:compliance@coralmind.org) with "Code of Conduct" in the subject line.
 
 Community Moderators take reports of violations seriously and will make every effort to respond in a timely manner. They will investigate all reports of code of conduct violations, reviewing messages, logs, and recordings, or interviewing witnesses and other participants. Community Moderators will keep investigation and enforcement actions as transparent as possible while prioritizing safety and confidentiality. In order to honor these values, enforcement actions are carried out in private with the involved parties, but communicating to the whole community may be part of a mutually agreed upon resolution.
 
@@ -72,7 +72,7 @@ If an investigation by the Community Moderators finds that this Code of Conduct 
    2. Consequence: Access to all community spaces, tools, and communication channels is removed. In general, permanent bans should be rarely used, should have strong reasoning behind them, and should only be resorted to if working through other remedies has failed to change the behavior.
    3. Repair: There is no possible repair in cases of this severity.
 
-This enforcement ladder is intended as a guideline. It does not limit the ability of Community Managers to use their discretion and judgment, in keeping with the best interests of our community.
+This enforcement ladder is intended as a guideline. It does not limit the ability of Community Moderators to use their discretion and judgment, in keeping with the best interests of our community.
 
 ## Scope
 
@@ -80,7 +80,7 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Attribution
 
-This Code of Conduct is adapted from the Contributor Covenant, version 3.0, permanently available at <https://www.contributor-covenant.org/version/3/0/code_of_conduct/>. The pledge and the restrictions on stigmatizing mental illness and sharing identifiable crisis narratives are additions for CoralMind's work.
+This Code of Conduct is adapted from the Contributor Covenant, version 3.0, permanently available at <https://www.contributor-covenant.org/version/3/0/code_of_conduct/>. The paragraph on mental health topics in the pledge and the restrictions on stigmatizing mental illness and sharing identifiable crisis narratives are additions for CoralMind's work.
 
 Contributor Covenant is stewarded by the Organization for Ethical Source and licensed under CC BY-SA 4.0. To view a copy of this license, visit <https://creativecommons.org/licenses/by-sa/4.0/>
 

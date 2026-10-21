@@ -1,0 +1,64 @@
+name: Content report
+description: Something in a project's content is wrong, unclear, or missing evidence
+labels: ["content", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this.
+
+        This form is for problems with content, such as text, data, or citations. For a problem with code, use the bug report. The project's README says what belongs here and what to raise privately instead.
+
+        Do not include security vulnerabilities or safety-sensitive content here. Use the private process in the [security policy](https://github.com/coralmind/.github/blob/main/SECURITY.md).
+
+        Do not include real patient data, identifiable crisis narratives, or other personal information. CoralMind is not a clinical service. If you need help now, see [support](https://github.com/coralmind/.github/blob/main/SUPPORT.md).
+  - type: checkboxes
+    id: before-you-continue
+    attributes:
+      label: Before you continue
+      options:
+        - label: This report does not include real patient data, identifiable personal stories, or other personal information.
+          required: true
+        - label: This report is not about a security vulnerability or safety-sensitive content.
+          required: true
+  - type: input
+    id: item
+    attributes:
+      label: Which item?
+      description: The id, file path, or a link to the content you mean.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem is it?
+      multiple: true
+      options:
+        - It is inaccurate or unrealistic
+        - It says something its source does not support
+        - A citation or reference is wrong
+        - Evidence is missing or out of date
+        - The wording is unclear or confusing
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what-is-wrong
+    attributes:
+      label: What is wrong?
+      description: Quote the part you mean, and say what it should say instead.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting source
+      description: If a published source supports the correction, give its citation or link.
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+    validations:
+      required: false
