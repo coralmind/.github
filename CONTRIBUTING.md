@@ -13,4 +13,5 @@ If you would like to contribute expertise, such as your knowledge, data, tools, 
 - Read the [Code of Conduct](CODE_OF_CONDUCT.md). It applies in every CoralMind community space.
 - Do not open a public issue for a security vulnerability or for safety-sensitive content. Use [SECURITY.md](SECURITY.md).
 - CoralMind is not a clinical service. If you need help now, see [SUPPORT.md](SUPPORT.md).
+- To report a barrier that stops you from reading or using a repository, a document, or the website, see [ACCESSIBILITY.md](ACCESSIBILITY.md).
 - Do not include real patient data, identifiable crisis narratives, or other personal information in issues, pull requests, or discussions.

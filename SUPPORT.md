@@ -21,6 +21,10 @@ Contribution guidelines are still being written. For a question about the projec
 
 Use the issue templates in the repository: a bug report for code, a content report for content, or a feature request. Each project's README says what to report there and what to raise privately instead. Do not include real patient data, identifiable crisis narratives, or other personal information.
 
+## Accessibility
+
+A barrier that stops you from reading or using a repository, a document, or the website belongs in [ACCESSIBILITY.md](ACCESSIBILITY.md).
+
 ## Security and Safety-Sensitive Content
 
 See [SECURITY.md](SECURITY.md). Do not open a public issue.

@@ -14,6 +14,7 @@ These files apply automatically to other CoralMind repositories. A copy committe
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Linked from the repository's community profile |
 | [SECURITY.md](SECURITY.md) | Shown as the security policy, with how to report privately |
 | [SUPPORT.md](SUPPORT.md) | Shown from the community profile |
+| [ACCESSIBILITY.md](ACCESSIBILITY.md) | Shown as the Accessibility tab, with how to report a barrier |
 | [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/) | The new-issue forms |
 | [.github/PULL_REQUEST_TEMPLATE.md](.github/PULL_REQUEST_TEMPLATE.md) | The pull request description template |
 

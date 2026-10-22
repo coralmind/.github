@@ -20,4 +20,5 @@ Contribution guidelines are still being written. If you want to help, [contact u
 - [Contributing](https://github.com/coralmind/.github/blob/main/CONTRIBUTING.md)
 - [Code of Conduct](https://github.com/coralmind/.github/blob/main/CODE_OF_CONDUCT.md)
 - [Security policy](https://github.com/coralmind/.github/blob/main/SECURITY.md)
+- [Accessibility](https://github.com/coralmind/.github/blob/main/ACCESSIBILITY.md)
 - [Website](https://coralmind.org)
