@@ -2,7 +2,7 @@
 
 Thank you for your interest in CoralMind.
 
-We are still writing our contribution guidelines. Until that work is finished, we are not accepting pull requests. Bug reports, content reports, and ideas are welcome as issues.
+We are still writing our contribution guidelines. Until that work is finished, we are not accepting pull requests. Bug reports, content reports, documentation reports, and ideas are welcome as issues.
 
 If you would like to contribute expertise, such as your knowledge, data, tools, or experience, tell us through the contact form.
 
