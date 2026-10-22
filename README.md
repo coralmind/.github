@@ -13,6 +13,7 @@ These files apply automatically to other CoralMind repositories. A copy committe
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Shown when someone opens an issue or pull request |
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Linked from the repository's community profile |
 | [SECURITY.md](SECURITY.md) | Shown as the security policy, with how to report privately |
+| [.github/VULNERABILITY_REPORT.yml](.github/VULNERABILITY_REPORT.yml) | The private report form for a vulnerability or safety-sensitive content |
 | [SUPPORT.md](SUPPORT.md) | Shown from the community profile |
 | [ACCESSIBILITY.md](ACCESSIBILITY.md) | Shown as the Accessibility tab, with how to report a barrier |
 | [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/) | The new-issue forms |
