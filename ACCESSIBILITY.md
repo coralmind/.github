@@ -1,12 +1,12 @@
 # Accessibility
 
-This page describes access to CoralMind's repositories, documentation, and website, and how to report a barrier that stops you from using them.
+This page describes access to CoralMind's repositories, documentation, and websites, and how to report a barrier that stops you from using them.
 
 If you need help now, or you have a question about the projects, see [SUPPORT.md](SUPPORT.md). CoralMind is not a clinical service.
 
 ## Priorities
 
-We publish research and field infrastructure as text: Markdown, JSON, and YAML on GitHub, and pages on [coralmind.org](https://coralmind.org). A person should be able to reach that material with a keyboard and with assistive technology.
+We publish research and field infrastructure as text: Markdown, JSON, and YAML on GitHub, and on the websites listed under Environments. A person should be able to reach that material with a keyboard and with assistive technology.
 
 When we publish, and when we fix a barrier, we use these priorities:
 
@@ -16,17 +16,24 @@ When we publish, and when we fix a barrier, we use these priorities:
 4. **Structure assistive technology can follow.** Headings stay in order. Controls have names. A link says where it goes.
 5. **Text formats.** Data and content are available as text, including when a figure or a PDF is also provided.
 
-These are publishing priorities. We will name a conformance standard, such as a WCAG level, on this page only after an audit has checked the repositories and the website against it.
+These are publishing priorities. We will name a conformance standard, such as a WCAG level, on this page only after an audit has checked the repositories and the websites against it.
 
 ## Environments
 
-The repositories can be read on GitHub in a browser, or cloned and read in a local editor. [coralmind.org](https://coralmind.org) is the public website.
+The repositories can be read on GitHub in a browser, or cloned and read in a local editor.
 
-We have not yet named a set of browsers and assistive technologies we test against. A report is more useful when it includes the browser, the assistive technology, and the versions you used.
+The same priorities apply to every CoralMind website. Today those include:
+
+- [coralmind.org](https://coralmind.org), the organization site.
+- [map.coralmind.org](https://map.coralmind.org), the Knowledge Library viewer (`viewer/` in [knowledge-library](https://github.com/coralmind/knowledge-library)).
+
+A website added later is covered here until that project publishes its own `ACCESSIBILITY.md`.
+
+We have not yet named a set of browsers and assistive technologies we test against. A report is more useful when it includes the browser, the assistive technology, and the versions you used. For a local viewer, include how you started it.
 
 ## Known barriers
 
-We have not finished an audit of the repositories or of coralmind.org. This section will list each barrier we know about, and any workaround, as we confirm it.
+We have not finished an audit of the repositories or of the websites above. This section will list each barrier we know about, and any workaround, as we confirm it.
 
 A barrier you encounter is worth reporting even when it is not listed here.
 
@@ -36,7 +43,7 @@ Open a public issue on the affected repository.
 
 - A README, guide, or other project documentation: use the documentation report.
 - Published content, such as text, data, or a figure: use the content report.
-- Code, tooling, or the website: use the bug report.
+- Code, tooling, or a website: use the bug report, on the repository that builds that site. The Knowledge Library viewer is [knowledge-library](https://github.com/coralmind/knowledge-library). 
 
 Include the page or file, what you were trying to do, what happened, and the browser, assistive technology, and versions you used.
 
