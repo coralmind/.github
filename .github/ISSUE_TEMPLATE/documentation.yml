@@ -1,0 +1,54 @@
+name: Documentation report
+description: Project documentation is missing, wrong, or confusing
+title: "[Docs]: <short description>"
+labels: ["documentation", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this.
+
+        This form is for project documentation, such as a README, guide, or reference. For a problem with content, such as text, data, or citations, use the content report. For a problem with code or tooling, use the bug report.
+
+        Do not include security vulnerabilities or safety-sensitive content here. Use the private process in the [security policy](https://github.com/coralmind/.github/blob/main/SECURITY.md).
+
+        Do not include real patient data, identifiable crisis narratives, or other personal information. CoralMind is not a clinical service. If you need help now, see [support](https://github.com/coralmind/.github/blob/main/SUPPORT.md).
+  - type: checkboxes
+    id: before-you-continue
+    attributes:
+      label: Before you continue
+      options:
+        - label: I have searched the existing issues.
+          required: true
+        - label: This report does not include real patient data, identifiable personal stories, or other personal information.
+          required: true
+        - label: This report is not about a security vulnerability or safety-sensitive content.
+          required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where is it?
+      description: A link, file path, or section. If the documentation is missing, say where you expected to find it.
+      placeholder: README.md, or a link to the page
+    validations:
+      required: true
+  - type: textarea
+    id: what-is-wrong
+    attributes:
+      label: What is missing or confusing?
+      description: Quote the part you mean, or describe what you could not find.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix
+      description: What the documentation should say instead, if you know.
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+    validations:
+      required: false

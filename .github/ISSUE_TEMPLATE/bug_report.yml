@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for reporting this.
 
-        For a problem with content, such as text, data, or citations, use the content report instead.
+        For a problem with content, such as text, data, or citations, use the content report. For project documentation, such as a README or guide, use the documentation report.
 
         Do not include security vulnerabilities or safety-sensitive content here. Use the private process in the [security policy](https://github.com/coralmind/.github/blob/main/SECURITY.md).
 

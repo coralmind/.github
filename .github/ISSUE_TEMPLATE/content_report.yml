@@ -1,5 +1,6 @@
 name: Content report
 description: Something in a project's content is wrong, unclear, or missing evidence
+title: "[Content]: <short description>"
 labels: ["content", "needs-triage"]
 body:
   - type: markdown
@@ -7,7 +8,7 @@ body:
       value: |
         Thanks for reporting this.
 
-        This form is for problems with content, such as text, data, or citations. For a problem with code, use the bug report. The project's README says what belongs here and what to raise privately instead.
+        This form is for problems with content, such as text, data, or citations. For a problem with code, use the bug report. For project documentation, such as a README or guide, use the documentation report. The project's README says what belongs here and what to raise privately instead.
 
         Do not include security vulnerabilities or safety-sensitive content here. Use the private process in the [security policy](https://github.com/coralmind/.github/blob/main/SECURITY.md).
 
@@ -17,6 +18,8 @@ body:
     attributes:
       label: Before you continue
       options:
+        - label: I have searched the existing issues.
+          required: true
         - label: This report does not include real patient data, identifiable personal stories, or other personal information.
           required: true
         - label: This report is not about a security vulnerability or safety-sensitive content.
