@@ -2,21 +2,16 @@
 
 Thank you for your interest in CoralMind.
 
-We are still writing our contribution guidelines. Until that work is finished, we are not accepting pull requests or other contributions through GitHub.
+We are still writing our contribution guidelines. Until that work is finished, we are not accepting pull requests. Bug reports, content reports, documentation reports, and ideas are welcome as issues.
 
-If you would like to contribute (i.e., code, clinical content, review, or something else), tell us through the contact form. The `sourceId` on that link lets us see that you came from GitHub.
+If you would like to contribute expertise, such as your knowledge, data, tools, or experience, tell us through the contact form.
 
-**[Contact us](https://coralmind.org/get-involved?sourceId=GitHub#connect)**
+**[Contact us](https://coralmind.org/get-involved?sourceId=GitHub&involve=expertise#connect)**
 
-## While you are here
+## While You Are Here
 
 - Read the [Code of Conduct](CODE_OF_CONDUCT.md). It applies in every CoralMind community space.
 - Do not open a public issue for a security vulnerability or for safety-sensitive content. Use [SECURITY.md](SECURITY.md).
 - CoralMind is not a clinical service. If you need help now, see [SUPPORT.md](SUPPORT.md).
+- To report a barrier that stops you from reading or using a repository, a document, or the website, see [ACCESSIBILITY.md](ACCESSIBILITY.md).
 - Do not include real patient data, identifiable crisis narratives, or other personal information in issues, pull requests, or discussions.
-
-## Licenses
-
-Code in a CoralMind project is released under the Apache License 2.0. Content in that project, including JSON and YAML files that carry the content, is released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
-
-Each project repository carries its own `LICENSE` and `CONTENT_LICENSE.md`. GitHub does not inherit a license from this repository.

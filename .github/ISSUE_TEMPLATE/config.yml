@@ -1,11 +1,14 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Need help now?
+    url: https://github.com/coralmind/.github/blob/main/SUPPORT.md#if-you-are-in-crisis
+    about: CoralMind is not a crisis service. Find crisis lines in the United States and other countries.
   - name: Interested in contributing
-    url: https://coralmind.org/get-involved?sourceId=GitHub#connect
+    url: https://coralmind.org/get-involved?sourceId=GitHub&involve=expertise#connect
     about: Contribution guidelines are still being written. Tell us how you would like to help.
   - name: Questions and other help
-    url: https://coralmind.org/get-involved?sourceId=GitHub#connect
-    about: CoralMind is not a clinical service. Questions about the projects go through the contact form.
+    url: https://coralmind.org/get-involved?sourceId=GitHub&involve=other#connect
+    about: Questions about the projects go through the contact form.
   - name: Security or safety-sensitive report
     url: https://github.com/coralmind/.github/blob/main/SECURITY.md
     about: Report a vulnerability or safety-sensitive content in private. Never in a public issue.

@@ -1,5 +1,6 @@
 name: Bug report
-description: Something isn't working as expected
+description: Code or tooling isn't working as expected
+title: "[Bug]: <short description of the bug>"
 labels: ["bug", "needs-triage"]
 body:
   - type: markdown
@@ -7,20 +8,34 @@ body:
       value: |
         Thanks for reporting this.
 
+        For a problem with content, such as text, data, or citations, use the content report. For project documentation, such as a README or guide, use the documentation report.
+
         Do not include security vulnerabilities or safety-sensitive content here. Use the private process in the [security policy](https://github.com/coralmind/.github/blob/main/SECURITY.md).
 
         Do not include real patient data, identifiable crisis narratives, or other personal information. CoralMind is not a clinical service. If you need help now, see [support](https://github.com/coralmind/.github/blob/main/SUPPORT.md).
   - type: checkboxes
-    id: no-personal-data
+    id: before-you-continue
     attributes:
       label: Before you continue
       options:
+        - label: I have searched the existing issues.
+          required: true
         - label: This report does not include real patient data, identifiable personal stories, or other personal information.
+          required: true
+        - label: This report is not about a security vulnerability or safety-sensitive content.
           required: true
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
+      description: A clear description of the bug.
+      placeholder: When I ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
       description: What did you do, what did you expect, and what happened instead?
     validations:
       required: true
@@ -28,15 +43,26 @@ body:
     id: repro
     attributes:
       label: Steps to reproduce
+      description: Give a minimal, complete, and verifiable reproduction.
       placeholder: |
-        1. ...
-        2. ...
+        1. Start from ...
+        2. Run or do ...
+        3. See ...
     validations:
       required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Paste logs or add screenshots. Remove tokens, personal information, and anything else that should stay private.
+      render: shell
+    validations:
+      required: false
   - type: input
     id: version
     attributes:
       label: Version or commit
+      placeholder: v1.2.3 or abc1234
     validations:
       required: false
   - type: textarea
