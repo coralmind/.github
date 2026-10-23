@@ -15,7 +15,7 @@ Include what you can: the type of issue, the repository and version or commit, s
 
 We are a small team. We will acknowledge your report as soon as we can, usually within a few business days, keep you informed as we investigate, and work with you on a coordinated disclosure timeline. We will credit you when we publish the fix unless you prefer to stay anonymous.
 
-We will not pursue legal action against researchers who follow this policy, test only against their own instances, and avoid privacy violations, data exposure, or service disruption.
+Research conducted in good faith under this policy is authorized as to claims we control. We will not sue or refer you to law enforcement for such research unless you access or retain personal data, demand payment, cause harm, or breach these guidelines. Third-party systems and legally required reporting are excluded.
 
 ## Sensitive Content
 
